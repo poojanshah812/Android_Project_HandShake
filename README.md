@@ -1,1 +1,12 @@
-# Android_Project_HandShake
+# NYU-Poly-CS9033-Android (Handshake)
+
+HANDSHAKE is an android application, especially made for urgent notifications to communicate. Inspiration behind the application came from the scenario when the receiver is not responding to the caller i.e. (Receiver’s phone is in the silent mode and so is unaware of text and calls). In stated scenario the caller can use HANDSHAKE, to communicate. It provides various means of notifications to notify the receiver. It consists of vibration notification, flashlight notification and on screen message notifications. Different variations of the vibration, flashlight can be used together to achieve unique and desired results. The onscreen message notification shows the message on receiver’s home screen, so the receiver would know the motive of the caller by the displayed ON SCREEN MESSAGE and also by touching the mobile phone and sensing its unique vibration pattern and flashlight setting. While the sender sends the HANDSHAKE, the receiver will respond with any conventional means of communication as the intended task of notifying the receiver in urgent circumstances has been achieved.
+Some features of the app are as follows:
+
+Provide notifications using patterns by tweaking flashlight and vibration settings.
+Notifications will reach user in Silent Mode
+Custom Vibrations and Flashlight generation options can be used which can be regulated by user while communication
+On Screen notification displaying the message
+
+#Usage Scenario
+Assume a scenario that Andy wants to communicate with Bart. But due to some unknown reasons Bart does not respond to Andy. Maybe Bart’s phone is on silent mode and Andy can’t reach him. Andy then uses HANDSHAKE. Andy is on the contact list of Bart and both have the app installed. Andy creates a custom vibration pattern and sets flashlight setting to ON activating the flashlight of Bart and also sends a message ‘Call me! It’s URGENT!!!’ After the handshake sent by Andy, Bart realizes this unique vibration pattern and also notices his flashlight is ON. Bart realizes that someone wants to reach him urgently. He also could have realized it was Andy without even turning his phone due to the unique vibration pattern and flashlight setting if they had frequently communicated or used this app before. He checks his phone and finds Andy wants to speak on an urgent note. Bart calls him using his phone app and some potentially dangerous situation is averted.

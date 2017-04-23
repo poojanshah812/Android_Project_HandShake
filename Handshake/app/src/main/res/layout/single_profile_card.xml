@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvExampleCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:id="@+id/profilecard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="horizontal"
+        android:padding="4dp"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/profilenametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hi" />
+
+
+        <TextView
+            android:id="@+id/profiledurationtv"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/oval_profile_duration"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            android:textStyle="bold"
+
+            />
+
+
+        <TextView
+            android:id="@+id/profilemillisecondtv"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/oval_profile_duration"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/profilepianobtn1"
+            style="?android:attr/buttonStyleInset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:clickable="false"
+            android:text="@string/number1" />
+
+        <Button
+            android:id="@+id/profilepianobtn2"
+            style="?android:attr/buttonStyleInset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:clickable="false"
+            android:text="@string/number2" />
+
+        <Button
+            android:id="@+id/profilepianobtn3"
+            style="?android:attr/buttonStyleInset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:clickable="false"
+            android:text="@string/number3" />
+
+        <Button
+            android:id="@+id/profilepianobtn4"
+            style="?android:attr/buttonStyleInset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:clickable="false"
+            android:text="@string/number4" />
+
+
+        <Switch
+            android:id="@+id/profileflashlightswitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:clickable="false"
+            android:layout_weight="0.1" />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
